@@ -219,7 +219,9 @@ FastImage.preload([
 Get image path from cache by `source`
 
 ```js
-FastImage.getCachePath({ uri: 'https://facebook.github.io/react/img/logo_og.png' })
+FastImage.getCachePath({
+    uri: 'https://facebook.github.io/react/img/logo_og.png',
+})
 ```
 
 ## Troubleshooting
@@ -267,3 +269,5 @@ Thanks to [@mobinni](https://github.com/mobinni) for helping with the conceptual
 [github-watch]: https://github.com/dylanvann/react-native-fast-image/watchers
 [github-star-badge]: https://img.shields.io/github/stars/dylanvann/react-native-fast-image.svg?style=social
 [github-star]: https://github.com/dylanvann/react-native-fast-image/stargazers
+
+fork
